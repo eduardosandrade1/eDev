@@ -3,14 +3,30 @@
         margin: 0px;
     }
     .container-menu{
+        position: fixed;
         margin:0px;
+        right: -350px;
+        transition: 1s;
     }
     .container-menu a{
         padding:10px 10px 10px 10px ;
         color: white;
         font-size: 18pt;
         text-decoration: none;
+        
     }
+    .btn-menu{
+        display: block;
+        padding: 20px;
+        color: white;
+        background-color: black;
+        border: none;
+    }
+    .container-menu:hover{
+        right: 0px;
+        transition: 1s;
+    }
+
     input{
         font-size: 22px;
         max-width: 170px;

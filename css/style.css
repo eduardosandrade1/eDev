@@ -35,6 +35,7 @@ header{
     color: whitesmoke;
     justify-content: center;
 }
+
 .container-menu a{
     padding:10px 50px 10px 50px ;
     color: white;
@@ -50,6 +51,7 @@ ul, li{
     background-color: rgb(44, 44, 95);
     padding: 10px 70px;
 }
+.btn-menu{display: none;}
 .link-home{
     background-color: black;
 }
@@ -199,8 +201,9 @@ footer{
 .social-icons{
     display: flex;
     justify-content: space-evenly;
-    background-color: aliceblue;
+    background-color: transparent;
 }
 .social-icons i{
     color: rgb(0, 0, 0);
+    padding: 10px 0px;
 }
