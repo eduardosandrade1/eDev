@@ -5,7 +5,8 @@
     .container-menu{
         position: fixed;
         margin:0px;
-        right: -350px;
+        max-width: 100%;
+        right: -353px;
         transition: 1s;
     }
     .container-menu a{
