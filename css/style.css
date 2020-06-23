@@ -1,0 +1,202 @@
+body{
+    background-color: rgb(174, 174, 216);
+}
+
+.container-principal{
+    background: url('../images/fundo1.png') no-repeat;
+    height: 3380px;
+    max-width: 100%;
+    min-width: 300px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.container-principal h1{
+    font-size: 26pt;
+}
+
+input{
+    font-size: 26px;
+     border-radius:3px ;
+     max-width: 280px;
+     border-style: none;
+     margin-bottom: 20px;
+    }
+input:focus{
+    outline: none; border-style: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+.titulo{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: center;
+}
+.container-menu a{
+    padding:10px 50px 10px 50px ;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    transition-duration: 1.5s;
+}
+.container-menu a:hover{
+    background-color: black;
+}
+ul, li{
+    display: flex;
+    background-color: rgb(44, 44, 95);
+    padding: 10px 70px;
+}
+.link-home{
+    background-color: black;
+}
+main a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+}
+.subir{
+    position: fixed;
+    right: 40px;
+    bottom:50px;
+    background-color: transparent;
+
+}
+.subir img{
+    max-width: 90px;
+    background-color: transparent;
+}
+
+main h1{
+    font-size: 30pt;
+}
+.inicial{
+    display: flex;
+    height: 670px;
+    margin: 80px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.inicial h1{
+    font-size: 80px;
+    color: whitesmoke;
+    /*color: rgb(1,1,1,0.8);*/
+    font-weight:1000;
+    background-color: rgb(44, 44, 95);
+    padding:7px;
+    margin-bottom: 80px;
+}
+.btn-inicial{
+    display: flex;
+    align-items: flex-end;
+    margin:0 auto;
+}
+.btn-contato{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px 100px;
+    font-size: 20pt;
+    margin-left: 60px;
+    transition: 1.5s;
+}
+.home{
+    position: fixed;
+}
+.container-menu{
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+    padding: 10px 0 10px 0;
+}
+
+/*-----------------------------------------------------------*/
+
+#about{
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-end;
+    margin-right:100px;
+    flex-direction: column;
+    height: 800px;
+    text-align: center;
+}
+#about h1{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.conteudo-sobre{
+    text-align: center;
+}
+.conteudo-sobre img{
+    border-radius: 100px;
+    max-width: 250px;
+    max-width: 250px;
+}
+.txt-sobre{
+    max-width: 500px;
+    font-size:14pt;
+}
+/*-----------------------------------------------------------*/
+
+#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 840px;
+    text-align: center;
+}
+#services h1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color:whitesmoke;
+}
+.conteudo-services{
+    max-width: 500px;
+    background-color: rgb(121, 121, 170);
+    transition-property: all;
+}
+.web-div{
+    font-size:14pt;
+}
+/*-----------------------------------------------------------*/
+
+#contact{
+    height: 670px;
+    width: 100%;
+    text-align: center;
+}
+#contact h1{
+    background-color: black;color:white;
+    padding:30px 0;
+}
+.conteudo-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    margin:40px auto;
+}
+.area-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 220px;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,58 @@
+@media screen and (max-width:650px){
+    .titulo{
+        margin: 0px;
+    }
+    .container-menu{
+        margin:0px;
+    }
+    .container-menu a{
+        padding:10px 10px 10px 10px ;
+        color: white;
+        font-size: 18pt;
+        text-decoration: none;
+    }
+    input{
+        font-size: 22px;
+        max-width: 170px;
+    }
+    .inicial{
+        display: flex;
+        height: 670px;
+        margin: 0px 15px ;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .inicial h1{
+        font-size: 70px;
+    }
+    .btn-inicial{
+        margin:0px;
+    }
+    .btn-contato{
+        display: flex;
+        padding: 15px 30px;
+        font-size: 16pt;
+        margin: 0px;
+    }
+    #about{
+        height: 790px;
+        padding-top: 0px;
+        align-items: center;
+        margin:0px;
+    }
+    #services{
+        margin-top: 30px;
+        height: 790px;
+    }
+    #contact{
+        height: 790px;
+    }
+    .subir img{
+        max-width: 60px;
+    }
+    .txt-sobre{
+        max-width: 500px;
+        border-radius: 10px;
+        background-color:rgb(147, 151, 214);
+    }
+}
