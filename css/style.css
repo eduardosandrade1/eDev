@@ -199,4 +199,8 @@ footer{
 .social-icons{
     display: flex;
     justify-content: space-evenly;
+    background-color: aliceblue;
+}
+.social-icons i{
+    color: rgb(0, 0, 0);
 }
