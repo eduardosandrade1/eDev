@@ -1,7 +1,16 @@
 body{
     background-color: rgb(174, 174, 216);
 }
-
+input{
+    font-size: 26px;
+     border-radius:3px ;
+     max-width: 280px;
+     border-style: none;
+     margin-bottom: 20px;
+    }
+input:focus{
+    outline: none; border-style: none;
+}
 .container-principal{
     background: url('../images/fundo1.png') no-repeat;
     height: 3380px;
@@ -13,17 +22,18 @@ body{
 .container-principal h1{
     font-size: 26pt;
 }
+.subir{
+    position: fixed;
+    right: 40px;
+    bottom:50px;
+    background-color: transparent;
 
-input{
-    font-size: 26px;
-     border-radius:3px ;
-     max-width: 280px;
-     border-style: none;
-     margin-bottom: 20px;
-    }
-input:focus{
-    outline: none; border-style: none;
 }
+.subir img{
+    max-width: 90px;
+    background-color: transparent;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -35,7 +45,12 @@ header{
     color: whitesmoke;
     justify-content: center;
 }
-
+.container-menu{
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+    padding: 10px 0 10px 0;
+}
 .container-menu a{
     padding:10px 50px 10px 50px ;
     color: white;
@@ -51,7 +66,9 @@ ul, li{
     background-color: rgb(44, 44, 95);
     padding: 10px 70px;
 }
-.btn-menu{display: none;}
+.btn-menu{
+    display: none;
+}
 .link-home{
     background-color: black;
 }
@@ -62,18 +79,6 @@ main a{
     padding: 20px;
     border-radius: 40px;
 }
-.subir{
-    position: fixed;
-    right: 40px;
-    bottom:50px;
-    background-color: transparent;
-
-}
-.subir img{
-    max-width: 90px;
-    background-color: transparent;
-}
-
 main h1{
     font-size: 30pt;
 }
@@ -110,12 +115,7 @@ main h1{
 .home{
     position: fixed;
 }
-.container-menu{
-    display: flex;
-    margin-top: 30px;
-    justify-content: flex-end;
-    padding: 10px 0 10px 0;
-}
+
 
 /*-----------------------------------------------------------*/
 
@@ -176,7 +176,6 @@ main h1{
 #contact{
     height: 670px;
     width: 100%;
-    text-align: center;
 }
 #contact h1{
     background-color: black;color:white;
@@ -184,16 +183,14 @@ main h1{
 }
 .conteudo-contact{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 100px;
-    flex-direction: column;
-    margin:40px auto;
+    margin:40px 60px;
 }
 .area-texto{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
 }
 footer{
     height: 220px;

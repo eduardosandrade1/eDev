@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,85 +12,106 @@
     <title>eDev</title>
 </head>
 <body>
-    <div class="container-principal">
+    <div class="container-principal"><!--------------------------Principal container------------------------->
+        <!--botão para voltar ao topo-->
+
         <div class="subir">
             <a href="#"><img src="images/btn-topo.png" alt=""></a>
         </div>
+
+        <!-------------------------->
         <header>
-            <div class="titulo">
-                <h1>eDev</h1>
-            </div>
-            <div class="container-menu">
-                <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
-                <ul>
-                    <li><a href="#" class="link-home">Inicio</a></li>
-                    <li><a href="#about" class="link-about">Sobre</a></li>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                    
-                </ul>
-                
-            </div>
+            <section>
+            <!--Barra topo com nome da página -->
+                <div class="titulo">
+                    <h1>eDev</h1>
+                </div>
+            <!-------------------->
+
+            <!--Menu lateral direito-->
+                <div class="container-menu">
+                    <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+                    <ul>
+                        <li><a href="#" class="link-home">Inicio</a></li>
+                        <li><a href="#about" class="link-about">Sobre</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                        
+                    </ul> 
+                </div>
+            <!--------------------->
+            </section>
         </header>
         <main>
-            <div class="inicial">
-                <h1>Desenvolva seu site!</h1>
+            <section>
+            <!-------------Sessão inicial do site------------>
+                <div class="inicial">
+                    <h1>Desenvolva seu site!</h1>
                     <div class="btn-inicial">
-                        <a href="#contact" class="btn-contato">Entrar em contato</a>
-                    </div>
-            </div>
-
-            <div id="about">
-                
-                
-                <div class="conteudo-sobre">
-                    <h1>Sobre mim</h1>
-                    <img src="images/eu2.jpg" alt="">
-                    <div class="name-user">
-                        <h2>Eduardo Andrade</h2>
-                    </div>
-                    <div class="txt-sobre">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, ipsum nisi? Qui delectus, ullam similique vel et doloremque atque, exercitationem necessitatibus reprehenderit adipisci sed molestias fuga quaerat sunt iusto laudantium. Iusto velit, quisquam, provident temporibus aliquid aperiam laudantium eos alias numquam, beatae accusamus veniam! Vitae aliquam illum, earum ab porro similique fuga. Ab cupiditate illo ratione! Exercitationem explicabo deserunt dolorum vel aperiam ut error possimus iste dolore, natus labore, eligendi quae. Maiores accusantium quibusdam voluptatibus quia alias commodi magnam repudiandae fugit ducimus optio aliquid laboriosam, nobis magni. Voluptas eligendi sint a nihil voluptates quis provident mollitia voluptatum placeat, quod quam?</p>
+                         <a href="#contact" class="btn-contato">Entrar em contato</a>
                     </div>
                 </div>
+            <!---------------------------------------->
 
-            </div>
-            <div id="services">
-                <h1>Serviços</h1>
-                <div class="text-services">
-                    <div class="conteudo-services">
-                        <h2>Web</h2>
-                        <div class="web-div">
-                            <p>Lipsum dolor sit amet consectetur adipisicing elit. Pariatur fugiat cum eum nobis et laboriosam numquam magnam labore tempore molestiae? Pariatur, praesentium eos a saepe quaerat est magnam, necessitatibus neque velit sit non optio quidem vero consequuntur. Laboriosam ad natus veritatis, dolorem rerum facilis deleniti? Molestiae rerum, harum dolores sequi nisi quidem repellat. Voluptate similique explicabo fugit atque, cum facilis dolorum consectetur minus fugiat facere eius, unde dolor eligendi minima doloribus alias exercitationem quas mollitia illum corrupti qui voluptates praesentium voluptas. Quaerat laudantium consectetur at laboriosam beatae odit est, voluptatem natus aperiam praesentium, eos sed quasi possimus perferendis ex aut.</p>
+            <!-----------sessão sobre mim-->
+                <div id="about">
+                    <div class="conteudo-sobre">
+                        <h1>Sobre mim</h1>
+                        <img src="images/eu2.jpg" alt="">
+                        <div class="name-user">
+                            <h2>Eduardo Andrade</h2>
+                        </div>
+                        <div class="txt-sobre">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, ipsum nisi? Qui delectus, ullam similique vel et doloremque atque, exercitationem necessitatibus reprehenderit adipisci sed molestias fuga quaerat sunt iusto laudantium. Iusto velit, quisquam, provident temporibus aliquid aperiam laudantium eos alias numquam, beatae accusamus veniam! Vitae aliquam illum, earum ab porro similique fuga. Ab cupiditate illo ratione! Exercitationem explicabo deserunt dolorum vel aperiam ut error possimus iste dolore, natus labore, eligendi quae. Maiores accusantium quibusdam voluptatibus quia alias commodi magnam repudiandae fugit ducimus optio aliquid laboriosam, nobis magni. Voluptas eligendi sint a nihil voluptates quis provident mollitia voluptatum placeat, quod quam?</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="contact">
-                <h1>Contato</h1>
-                <div class="conteudo-contact">
-                    <label for=".name"><h2>Nome:</h2></label>
-                    <input type="text" class="name" placeholder="Your better name">
-                    <label for=".email"><h2>Email</h2></label>
-                    <input type="email" class="email" placeholder="Your best email">
-                </div>
-                <div class="area-texto">
-                    <label for=".txt"></label>
-                    <textarea class="txt" id="" cols="55" rows="8"></textarea>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <div class="social-icons">
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.instagram.com/eduardo.sandrade1/"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-envelope"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
+            <!--------------------------->
 
-            </div>
-            <h4>Site criado por Eduardo Andrade</h4>
-        </footer>
+            <!--------------------sessão de serviços a prestar------------->
+                <div id="services">
+                    <h1>Serviços</h1>
+                    <div class="text-services">
+                        <div class="conteudo-services">
+                            <h2>Web</h2>
+                            <div class="web-div">
+                                <p>Lipsum dolor sit amet consectetur adipisicing elit. Pariatur fugiat cum eum nobis et laboriosam numquam magnam labore tempore molestiae? Pariatur, praesentium eos a saepe quaerat est magnam, necessitatibus neque velit sit non optio quidem vero consequuntur. Laboriosam ad natus veritatis, dolorem rerum facilis deleniti? Molestiae rerum, harum dolores sequi nisi quidem repellat. Voluptate similique explicabo fugit atque, cum facilis dolorum consectetur minus fugiat facere eius, unde dolor eligendi minima doloribus alias exercitationem quas mollitia illum corrupti qui voluptates praesentium voluptas. Quaerat laudantium consectetur at laboriosam beatae odit est, voluptatem natus aperiam praesentium, eos sed quasi possimus perferendis ex aut.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!------------------------------------------------>
+
+                <!--------------Sessão de contato------------->
+                <div id="contact">
+                    <h1>Contato</h1>
+                    <div class="conteudo-contact">
+                        <label for=".name"><h2>Nome:</h2></label>
+                        <input type="text" class="name" placeholder="Your better name">
+                        <label for=".email"><h2>Email</h2></label>
+                        <input type="email" class="email" placeholder="Your best email">
+                    </div>
+                    <div class="area-texto">
+                        <label for=".txt"></label>
+                        <textarea class="txt" id="" cols="55" rows="8"></textarea>
+                    </div>
+                </div>
+                <!------------------------------------------------>
+            </section>
+        </main>
+            <!-----------------------Inicio do rodapé------------------------->
+                <footer>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/eduardo.sandrade1/"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-envelope"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                    <h4>Site criado por Eduardo Andrade</h4>
+                </footer>
+            <!------------------------------------------------>
     </div>
+    <!----------------------------------------------------------------------------------------------------------->
     <script src="js/function.js"></script>
 </body>
 </html>
