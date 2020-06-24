@@ -2,6 +2,9 @@
     .titulo{
         margin: 0px;
     }
+    .container-principal{
+        height: 100%;
+    }
     .container-menu{
         position: fixed;
         margin:0px;
@@ -63,13 +66,18 @@
         height: 790px;
     }
     #contact{
-        height: 790px;
+        height: 100vh;
+    }
+    .conteudo-contact{
+        flex-direction: column;
+        padding: 0;
     }
     .subir img{
         max-width: 60px;
     }
     .txt-sobre{
-        max-width: 500px;
+        display: flex;
+        max-width: 300px;
         border-radius: 10px;
         background-color:rgb(147, 151, 214);
     }

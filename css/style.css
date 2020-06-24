@@ -1,6 +1,9 @@
 body{
     background-color: rgb(174, 174, 216);
 }
+section{
+    padding: 0;
+}
 input{
     font-size: 26px;
      border-radius:3px ;
@@ -16,12 +19,11 @@ input:focus{
     height: 3380px;
     max-width: 100%;
     min-width: 300px;
-    transition-property: all;
-    transition-duration: 2s;
 }
 .container-principal h1{
     font-size: 26pt;
 }
+
 .subir{
     position: fixed;
     right: 40px;
@@ -110,7 +112,12 @@ main h1{
     padding: 20px 100px;
     font-size: 20pt;
     margin-left: 60px;
-    transition: 1.5s;
+    transition: 0.6s;
+}
+.btn-contato:hover{
+    -webkit-transform: rotateZ(-20deg);
+    -ms-transform: rotateZ(-20deg);
+    transform: rotateZ(-20deg);
 }
 .home{
     position: fixed;
@@ -175,25 +182,42 @@ main h1{
 
 #contact{
     height: 670px;
-    width: 100%;
+    display:flex;
+    flex-direction: column;
 }
 #contact h1{
     background-color: black;color:white;
-    padding:30px 0;
+    padding:0 0 20px 0;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
 }
 .conteudo-contact{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin-top: 100px;
-    margin:40px 60px;
+    margin:40px auto;
 }
 .area-texto{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.submit-contato{
+    margin: 0 auto;
+}
+.submit-contato:hover{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
 footer{
     height: 220px;
+    text-align: center;
 }
 .social-icons{
     display: flex;
